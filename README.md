@@ -26,7 +26,6 @@ You also have to open .env file, and edit your database data.
 ### Database create and migration
 ```
 $ php bin/console doctrine:database:create
-$ php bin/console doctrine:migrations:diff
 $ php bin/console doctrine:migrations:migrate
 ```
 
